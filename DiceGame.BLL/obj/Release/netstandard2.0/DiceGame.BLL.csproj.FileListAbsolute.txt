@@ -1,0 +1,10 @@
+C:\Users\sraab\Documents\projectSamples\BetterYahtzee\BetterYahtzee.BLL\bin\Release\netstandard2.0\DiceGame.BLL.deps.json
+C:\Users\sraab\Documents\projectSamples\BetterYahtzee\BetterYahtzee.BLL\bin\Release\netstandard2.0\DiceGame.BLL.dll
+C:\Users\sraab\Documents\projectSamples\BetterYahtzee\BetterYahtzee.BLL\bin\Release\netstandard2.0\DiceGame.BLL.pdb
+C:\Users\sraab\Documents\projectSamples\BetterYahtzee\BetterYahtzee.BLL\obj\Release\netstandard2.0\DiceGame.BLL.csproj.AssemblyReference.cache
+C:\Users\sraab\Documents\projectSamples\BetterYahtzee\BetterYahtzee.BLL\obj\Release\netstandard2.0\DiceGame.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sraab\Documents\projectSamples\BetterYahtzee\BetterYahtzee.BLL\obj\Release\netstandard2.0\DiceGame.BLL.AssemblyInfoInputs.cache
+C:\Users\sraab\Documents\projectSamples\BetterYahtzee\BetterYahtzee.BLL\obj\Release\netstandard2.0\DiceGame.BLL.AssemblyInfo.cs
+C:\Users\sraab\Documents\projectSamples\BetterYahtzee\BetterYahtzee.BLL\obj\Release\netstandard2.0\DiceGame.BLL.csproj.CoreCompileInputs.cache
+C:\Users\sraab\Documents\projectSamples\BetterYahtzee\BetterYahtzee.BLL\obj\Release\netstandard2.0\DiceGame.BLL.dll
+C:\Users\sraab\Documents\projectSamples\BetterYahtzee\BetterYahtzee.BLL\obj\Release\netstandard2.0\DiceGame.BLL.pdb

@@ -1,0 +1,16 @@
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\bin\Debug\netcoreapp3.1\BetterYahtzee.UI.exe
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\bin\Debug\netcoreapp3.1\BetterYahtzee.UI.deps.json
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\bin\Debug\netcoreapp3.1\BetterYahtzee.UI.runtimeconfig.json
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\bin\Debug\netcoreapp3.1\BetterYahtzee.UI.runtimeconfig.dev.json
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\bin\Debug\netcoreapp3.1\BetterYahtzee.UI.dll
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\bin\Debug\netcoreapp3.1\BetterYahtzee.UI.pdb
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\bin\Debug\netcoreapp3.1\BetterYahtzee.BLL.dll
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\bin\Debug\netcoreapp3.1\BetterYahtzee.BLL.pdb
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\obj\Debug\netcoreapp3.1\BetterYahtzee.UI.csprojAssemblyReference.cache
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\obj\Debug\netcoreapp3.1\BetterYahtzee.UI.AssemblyInfoInputs.cache
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\obj\Debug\netcoreapp3.1\BetterYahtzee.UI.AssemblyInfo.cs
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\obj\Debug\netcoreapp3.1\BetterYahtzee.UI.csproj.CoreCompileInputs.cache
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\obj\Debug\netcoreapp3.1\BetterYahtzee.UI.csproj.CopyComplete
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\obj\Debug\netcoreapp3.1\BetterYahtzee.UI.dll
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\obj\Debug\netcoreapp3.1\BetterYahtzee.UI.pdb
+C:\Users\sraab\source\repos\BetterYahtzee\BetterYahtzee.UI\obj\Debug\netcoreapp3.1\BetterYahtzee.UI.genruntimeconfig.cache
