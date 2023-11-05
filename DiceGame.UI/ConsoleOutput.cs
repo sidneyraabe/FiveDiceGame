@@ -9,42 +9,40 @@ namespace DiceGame.UI
     {
         public static void DisplayTitle()
         {
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("                                                                                                                        ");
-            Console.WriteLine("                                                                                                                        ");
-            Console.WriteLine("                                                                                                                        ");
-            Console.WriteLine("                                                                                                                        ");
-            Console.WriteLine("                                                                                                                        ");
-            Console.WriteLine("                                                                                                                        ");
-            Console.WriteLine("                         _                  _   __                       __                                             ");
-            Console.WriteLine("                        FJ         ____    FJ_  FJ  ____        _ ___    LJ    ___ _    _    _                          ");
-            Console.WriteLine("                       J |        F __ J  J  _| L- F ___J      J '__ J   FJ   F __` L  J |  | L                         ");
-            Console.WriteLine("                       | |       | _____J | |-' - | '----_     | |--| | J  L | |--| |  | |  | |                         ");
-            Console.WriteLine("                       F L_____  F L___--.F |__-. )-____  L    F L__J J J  L F L__J J  F L__J J                         ");
-            Console.WriteLine(@"                      J________LJ\______/F\_____/J\______/F    J  _____/LJ__LJ\____,__L )-____  L                       ");
-            Console.WriteLine(@"                      |________| J______F J_____F J______F     |_J_____F |__| J____,__FJ\______/F                       ");
-            Console.WriteLine("                                                               L_J                      J______F                        ");
+            Console.ForegroundColor = ConsoleColor.White;   Console.WriteLine(@"                                                                                                                        ");
+                                                            Console.WriteLine(@"                                                                                                                        ");
+                                                            Console.WriteLine(@"                                                                                                                        ");
+                                                            Console.WriteLine(@"                                                                                                                        ");
+                                                            Console.WriteLine(@"                                                                                                                        ");
+                                                            Console.WriteLine(@"                                                                                                                        ");
+                                                            Console.WriteLine(@"                         _                  _   __                       __                                             ");
+                                                            Console.WriteLine(@"                        FJ         ____    FJ_  FJ  ____        _ ___    LJ    ___ _    _    _                          ");
+                                                            Console.WriteLine(@"                       J |        F __ J  J  _| L- F ___J      J '__ J   FJ   F __` L  J |  | L                         ");
+                                                            Console.WriteLine(@"                       | |       | _____J | |-' - | '----_     | |--| | J  L | |--| |  | |  | |                         ");
+                                                            Console.WriteLine(@"                       F L_____  F L___--.F |__-. )-____  L    F L__J J J  L F L__J J  F L__J J                         ");
+                                                            Console.WriteLine(@"                      J________LJ\______/F\_____/J\______/F    J  _____/LJ__LJ\____,__L )-____  L                       ");
+                                                            Console.WriteLine(@"                      |________| J______F J_____F J______F     |_J_____F |__| J____,__FJ\______/F                       ");
+                                                            Console.WriteLine(@"                                                               L_J                      J______F                        ");
+
             System.Threading.Thread.Sleep(1000);
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine(@"       ,gggggggggggggg ,a8a,  ,ggg,         ,gg ,ggggggg,   ,gggggggggggg,         ,a8a,      ,gggg,    ,ggggggg, ");
-            Console.WriteLine(@"      dP""""""""""""88"""""""""""",8"" ""8,dP""""Y8a       ,8P,dP""""""""""""Y8b dP""""""88""""""""""""Y8b,      ,8"" ""8,   ,88""""""Y8b,,dP""""""""""""Y8b");
-            Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine(@"      Yb,_    88      d8   8bYb, `88       d8'd8'     a Y8 Yb,  88       `8b,     d8   8b  d8""     `Y8d8'    a  Y8");
-            Console.WriteLine(@"       `""""    88      88   88 `""  88       88 88     ""Y8P'  `""  88        `8b     88   88 d8'   8b  d888     ""Y8P'");
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(@"           ggg88gggg  88   88     88       88 `8baaaa           88         Y8     88   88,8I    ""Y88P'`8baaaa     ");
-            Console.WriteLine(@"              88   8  Y8   8P     I8       8I,d8P""""""""           88         d8     Y8   8PI8'         ,d8P""""""""     ");
-            Console.ForegroundColor = ConsoleColor.DarkRed;
-            Console.WriteLine(@"              88      `8, ,8'     `8,     ,8'd8""                88        ,8P     `8, ,8'd8          d8""          ");
-            Console.WriteLine(@"        gg,   88 8888  ""8,8""       Y8,   ,8P Y8,                88       ,8P'8888  ""8,8"" Y8,         Y8,          ");
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine(@"         ""Yb,,8P `8b,  ,d8b,        Yb,_,dP  `Yba,,_____,       88______,dP' `8b,  ,d8b, `Yba,,_____,`Yba,,_____, ");
-            Console.WriteLine(@"           ""Y8P'   ""Y88P"" ""Y8        ""Y8P""     `""Y8888888      888888888P""     ""Y88P"" ""Y8  `""Y8888888  `""Y8888888 ");
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("                                                                                                                        ");
+
+                                                            Console.WriteLine(@"       ,gggggggggggggg ,a8a,  ,ggg,         ,gg ,ggggggg,   ,gggggggggggg,         ,a8a,      ,gggg,    ,ggggggg,       ");
+                                                            Console.WriteLine(@"      dP''''''88'''''',8' '8,dP''Y8a       ,8P,dP''''''Y8b dP'''88''''''Y8b,      ,8' '8,   ,88'''Y8b,,dP''''''Y8b      ");
+            Console.ForegroundColor = ConsoleColor.Magenta; Console.WriteLine(@"      Yb,_    88      d8   8bYb, `88       d8'd8'     a Y8 Yb,  88       `8b,     d8   8b  d8'     `Y8d8'    a  Y8      ");
+                                                            Console.WriteLine(@"       `''    88      88   88 `'' 88       88 88     'Y8P'  `'  88        `8b     88   88 d8'   8b  d888     'Y8P'      ");
+            Console.ForegroundColor = ConsoleColor.Red;     Console.WriteLine(@"           ggg88gggg  88   88     88       88 `8baaaa           88         Y8     88   88,8I    'Y88P'`8baaaa           ");
+                                                            Console.WriteLine(@"              88   8  Y8   8P     I8       8I,d8P''''           88         d8     Y8   8PI8'         ,d8P''''           ");            
+            Console.ForegroundColor = ConsoleColor.DarkRed; Console.WriteLine(@"              88      `8, ,8'     `8,     ,8'd8'                88        ,8P     `8, ,8'd8          d8'                ");
+                                                            Console.WriteLine(@"        gg,   88 8888  '8,8'       Y8,   ,8P Y8,                88       ,8P'8888  '8,8' Y8,         Y8,                ");
+            Console.ForegroundColor = ConsoleColor.Yellow;  Console.WriteLine(@"         'Yb,,8P `8b,  ,d8b,        Yb,_,dP  `Yba,,_____,       88______,dP' `8b,  ,d8b, `Yba,,_____,`Yba,,_____,       ");
+                                                            Console.WriteLine(@"           'Y8P'   'Y88P' 'Y8        'Y8P'     `'Y8888888      888888888P'     'Y88P' 'Y8  `'Y8888888  `'Y8888888       ");
+            Console.ForegroundColor = ConsoleColor.White;   Console.WriteLine(@"                                                                                                                        ");
+
             System.Threading.Thread.Sleep(1000);
-            Console.WriteLine("                                                                                                                        ");
-            Console.WriteLine("                                              Press any key to continue...");
+
+                                                            Console.WriteLine(@"                                                                                                                        ");
+                                                            Console.WriteLine(@"                                              Press any key to continue...                                              ");
             Console.ReadKey();
             Console.Clear();
 
@@ -350,69 +348,45 @@ namespace DiceGame.UI
                 switch (currentDice)
                 {
                     case 1:
-                        Console.WriteLine("┌───────┐");
-                        Console.SetCursorPosition(3 + (i) * 11, 20);
-                        Console.WriteLine("│       │");
-                        Console.SetCursorPosition(3 + (i) * 11, 21);
-                        Console.WriteLine("│   o   │");
-                        Console.SetCursorPosition(3 + (i) * 11, 22);
-                        Console.WriteLine("│       │");
-                        Console.SetCursorPosition(3 + (i) * 11, 23);
+                        Console.WriteLine("┌───────┐");Console.SetCursorPosition(3 + (i) * 11, 20);
+                        Console.WriteLine("│       │");Console.SetCursorPosition(3 + (i) * 11, 21);
+                        Console.WriteLine("│   o   │");Console.SetCursorPosition(3 + (i) * 11, 22);
+                        Console.WriteLine("│       │");Console.SetCursorPosition(3 + (i) * 11, 23);
                         Console.WriteLine("└═══════┘");
                         break;
                     case 2:
-                        Console.WriteLine("┌───────┐");
-                        Console.SetCursorPosition(3 + (i) * 11, 20);
-                        Console.WriteLine("│     o │");
-                        Console.SetCursorPosition(3 + (i) * 11, 21);
-                        Console.WriteLine("│       │");
-                        Console.SetCursorPosition(3 + (i) * 11, 22);
-                        Console.WriteLine("│ o     │");
-                        Console.SetCursorPosition(3 + (i) * 11, 23);
+                        Console.WriteLine("┌───────┐");Console.SetCursorPosition(3 + (i) * 11, 20);
+                        Console.WriteLine("│     o │");Console.SetCursorPosition(3 + (i) * 11, 21);
+                        Console.WriteLine("│       │");Console.SetCursorPosition(3 + (i) * 11, 22);
+                        Console.WriteLine("│ o     │");Console.SetCursorPosition(3 + (i) * 11, 23);
                         Console.WriteLine("└═══════┘");
                         break;
                     case 3:
-                        Console.WriteLine("┌───────┐");
-                        Console.SetCursorPosition(3 + (i) * 11, 20);
-                        Console.WriteLine("│     o │");
-                        Console.SetCursorPosition(3 + (i) * 11, 21);
-                        Console.WriteLine("│   o   │");
-                        Console.SetCursorPosition(3 + (i) * 11, 22);
-                        Console.WriteLine("│ o     │");
-                        Console.SetCursorPosition(3 + (i) * 11, 23);
+                        Console.WriteLine("┌───────┐");Console.SetCursorPosition(3 + (i) * 11, 20);
+                        Console.WriteLine("│     o │");Console.SetCursorPosition(3 + (i) * 11, 21);
+                        Console.WriteLine("│   o   │");Console.SetCursorPosition(3 + (i) * 11, 22);
+                        Console.WriteLine("│ o     │");Console.SetCursorPosition(3 + (i) * 11, 23);
                         Console.WriteLine("└═══════┘");
                         break;
                     case 4:
-                        Console.WriteLine("┌───────┐");
-                        Console.SetCursorPosition(3 + (i) * 11, 20);
-                        Console.WriteLine("│ o   o │");
-                        Console.SetCursorPosition(3 + (i) * 11, 21);
-                        Console.WriteLine("│       │");
-                        Console.SetCursorPosition(3 + (i) * 11, 22);
-                        Console.WriteLine("│ o   o │");
-                        Console.SetCursorPosition(3 + (i) * 11, 23);
+                        Console.WriteLine("┌───────┐");Console.SetCursorPosition(3 + (i) * 11, 20);
+                        Console.WriteLine("│ o   o │");Console.SetCursorPosition(3 + (i) * 11, 21);
+                        Console.WriteLine("│       │");Console.SetCursorPosition(3 + (i) * 11, 22);
+                        Console.WriteLine("│ o   o │");Console.SetCursorPosition(3 + (i) * 11, 23);
                         Console.WriteLine("└═══════┘");
                         break;
                     case 5:
-                        Console.WriteLine("┌───────┐");
-                        Console.SetCursorPosition(3 + (i) * 11, 20);
-                        Console.WriteLine("│ o   o │");
-                        Console.SetCursorPosition(3 + (i) * 11, 21);
-                        Console.WriteLine("│   o   │");
-                        Console.SetCursorPosition(3 + (i) * 11, 22);
-                        Console.WriteLine("│ o   o │");
-                        Console.SetCursorPosition(3 + (i) * 11, 23);
+                        Console.WriteLine("┌───────┐");Console.SetCursorPosition(3 + (i) * 11, 20);
+                        Console.WriteLine("│ o   o │");Console.SetCursorPosition(3 + (i) * 11, 21);
+                        Console.WriteLine("│   o   │");Console.SetCursorPosition(3 + (i) * 11, 22);
+                        Console.WriteLine("│ o   o │");Console.SetCursorPosition(3 + (i) * 11, 23);
                         Console.WriteLine("└═══════┘");
                         break;
                     case 6:
-                        Console.WriteLine("┌───────┐");
-                        Console.SetCursorPosition(3 + (i) * 11, 20);
-                        Console.WriteLine("│ o   o │");
-                        Console.SetCursorPosition(3 + (i) * 11, 21);
-                        Console.WriteLine("│ o   o │");
-                        Console.SetCursorPosition(3 + (i) * 11, 22);
-                        Console.WriteLine("│ o   o │");
-                        Console.SetCursorPosition(3 + (i) * 11, 23);
+                        Console.WriteLine("┌───────┐");Console.SetCursorPosition(3 + (i) * 11, 20);
+                        Console.WriteLine("│ o   o │");Console.SetCursorPosition(3 + (i) * 11, 21);
+                        Console.WriteLine("│ o   o │");Console.SetCursorPosition(3 + (i) * 11, 22);
+                        Console.WriteLine("│ o   o │");Console.SetCursorPosition(3 + (i) * 11, 23);                       
                         Console.WriteLine("└═══════┘");
                         break;
                 }
