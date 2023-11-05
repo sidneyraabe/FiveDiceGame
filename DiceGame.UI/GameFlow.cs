@@ -11,9 +11,11 @@ namespace BetterYahtzee.UI
     {
         public void PlayGame()
         {
+            // Start Screen
             GameManager game = new GameManager();
             ConsoleOutput.DisplayTitle();
 
+            // Main Loop
             while (true)
             {
                 game.StartGame();

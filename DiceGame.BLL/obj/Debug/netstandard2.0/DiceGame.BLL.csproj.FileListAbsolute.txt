@@ -1,0 +1,10 @@
+C:\Users\sidne\source\repos\FiveDiceGame\DiceGame.BLL\bin\Debug\netstandard2.0\DiceGame.BLL.deps.json
+C:\Users\sidne\source\repos\FiveDiceGame\DiceGame.BLL\bin\Debug\netstandard2.0\DiceGame.BLL.dll
+C:\Users\sidne\source\repos\FiveDiceGame\DiceGame.BLL\bin\Debug\netstandard2.0\DiceGame.BLL.pdb
+C:\Users\sidne\source\repos\FiveDiceGame\DiceGame.BLL\obj\Debug\netstandard2.0\DiceGame.BLL.csproj.AssemblyReference.cache
+C:\Users\sidne\source\repos\FiveDiceGame\DiceGame.BLL\obj\Debug\netstandard2.0\DiceGame.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sidne\source\repos\FiveDiceGame\DiceGame.BLL\obj\Debug\netstandard2.0\DiceGame.BLL.AssemblyInfoInputs.cache
+C:\Users\sidne\source\repos\FiveDiceGame\DiceGame.BLL\obj\Debug\netstandard2.0\DiceGame.BLL.AssemblyInfo.cs
+C:\Users\sidne\source\repos\FiveDiceGame\DiceGame.BLL\obj\Debug\netstandard2.0\DiceGame.BLL.csproj.CoreCompileInputs.cache
+C:\Users\sidne\source\repos\FiveDiceGame\DiceGame.BLL\obj\Debug\netstandard2.0\DiceGame.BLL.dll
+C:\Users\sidne\source\repos\FiveDiceGame\DiceGame.BLL\obj\Debug\netstandard2.0\DiceGame.BLL.pdb

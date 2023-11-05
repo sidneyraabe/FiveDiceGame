@@ -2,8 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp7.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DiceGame.BLL\DiceGame.BLL.csproj" />
+  </ItemGroup>
 
   <ItemGroup>
     <Reference Include="BetterYahtzee.BLL">

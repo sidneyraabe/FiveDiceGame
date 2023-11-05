@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ymFywZlfX9n+dP9GQOSQiNYOJY+jzkduy3hioCh/mJAJVuyqQUXMn0c7niJWz7o5H8zTdw7BRwP6l3msp/OLIQ==",
+  "dgSpecHash": "HNVTbykNI2eww26sYKA+4/P0FpuqzREI/Lvwi9elIHHzSbqnQrVaQ3QXHba4SkQBqUrQj4MEHUxjd92Vf131MQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sraab\\Documents\\projectSamples\\DiceGame\\DiceGame.BLL\\DiceGame.BLL.csproj",
+  "projectFilePath": "C:\\Users\\sidne\\source\\repos\\FiveDiceGame\\DiceGame.BLL\\DiceGame.BLL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\sraab\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\sraab\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\sidne\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\sidne\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

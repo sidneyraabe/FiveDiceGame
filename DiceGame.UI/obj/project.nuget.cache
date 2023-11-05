@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HURIIHhTuWFU4Wfjf5xpoqzibNXHCpuKIikf5aAOGNvaN7eig5mbIkN04dZhsI9TmCLGAVEpoqrsvceDniGu4w==",
+  "dgSpecHash": "d1RZBsGjVv7jIMkREQ6Le6klPbSDBkNKV0KTR5tVAUrcoSTKxqeGzusQt6pLGkro8mwJVYPR0KeDhy/nnM1+RA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sraab\\Documents\\projectSamples\\DiceGame\\DiceGame.UI\\DiceGame.UI.csproj",
+  "projectFilePath": "C:\\Users\\sidne\\source\\repos\\FiveDiceGame\\DiceGame.UI\\DiceGame.UI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
