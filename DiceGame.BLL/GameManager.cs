@@ -19,7 +19,7 @@ namespace BetterYahtzee.BLL
         {
             return currentDice[i];
         }
-        public void RollYahtzee()
+        public void RollYahtzee() // debugging
         {
             Random roll = new Random();
             currentDice[0] = roll.Next(1, 7);
@@ -54,19 +54,7 @@ namespace BetterYahtzee.BLL
             }
             return true;
         }
-        public bool IsValidDiceSelection(int diceSelection)
-        {
-            if (diceSelection <= 54321 && diceSelection >= 1)
-                return true;
-            return false;
-        }
-        public bool IsValidScoringSelection(string scoreSelection)
-        {
-            scoreSelection = scoreSelection.ToUpper();
-            if (scoreSelection.Length == 1 && scoreSelection[0] >= 'A' && scoreSelection[0] <= 'M') // 13 selections for scoring
-                return true;
-            return false;
-        }
+        
         private int ReturnSumSelectedDice(int diceToCount)
         {
             int _specificDiceTotal = 0;
@@ -261,15 +249,7 @@ namespace BetterYahtzee.BLL
             else
                 return false;
         }
-        public static bool ReturnInvalid()
-        {
-            return false;
-        }
-        public static bool ReturnValid()
-        {
-            return true;
-        }
-        public int Get(string selection)
+        public static int Get(string selection)
         {
             int _topbonus = 0;
             int _tophalf = 0;

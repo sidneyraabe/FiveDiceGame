@@ -51,25 +51,23 @@ namespace BetterYahtzee.UI
         }
         public static void DisplayScoreSheet()
         {
-            GameManager game = new GameManager();
-
-            int one = game.Get("one");
-            int two = game.Get("two");
-            int three = game.Get("three");
-            int four = game.Get("four");
-            int five = game.Get("five");
-            int six = game.Get("six");
-            int threeKind = game.Get("threeKind");
-            int fullHouse = game.Get("fullHouse");
-            int fourKind = game.Get("fourKind");
-            int small = game.Get("small");
-            int large = game.Get("large");
-            int yahtzee = game.Get("yahtzee");
-            int chance = game.Get("chance");
-            int bonus = game.Get("bonus");
-            int total = game.Get("total");
-            int tophalf = game.Get("tophalf");
-            int topbonus = game.Get("topbonus");
+            int one = GameManager.Get("one");
+            int two = GameManager.Get("two");
+            int three = GameManager.Get("three");
+            int four = GameManager.Get("four");
+            int five = GameManager.Get("five");
+            int six = GameManager.Get("six");
+            int threeKind = GameManager.Get("threeKind");
+            int fullHouse = GameManager.Get("fullHouse");
+            int fourKind = GameManager.Get("fourKind");
+            int small = GameManager.Get("small");
+            int large = GameManager.Get("large");
+            int yahtzee = GameManager.Get("yahtzee");
+            int chance = GameManager.Get("chance");
+            int bonus = GameManager.Get("bonus");
+            int total = GameManager.Get("total");
+            int tophalf = GameManager.Get("tophalf");
+            int topbonus = GameManager.Get("topbonus");
 
             Console.ForegroundColor = ConsoleColor.DarkGray;
             if (one == -1)
@@ -454,8 +452,7 @@ namespace BetterYahtzee.UI
 
         public static void FinalScore()
         {
-            GameManager game = new GameManager();
-            int total = game.Get("total");
+            int total = GameManager.Get("total");
             Console.SetCursorPosition(3, 18);
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write("Your final score is: ");
