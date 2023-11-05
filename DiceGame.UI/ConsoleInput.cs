@@ -17,7 +17,7 @@ namespace DiceGame.UI
         }
         public static string PromptReplay()
         {
-            string input = InlinePrompt("Do you wish to play again? (Y)es or (n)o");;
+            string input = InlinePrompt("Do you wish to play again? (Y)es or (n)o");
             return input;
         }
         public static string PromptOnlyScoreSelection()
