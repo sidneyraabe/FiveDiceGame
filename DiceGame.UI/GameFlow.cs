@@ -19,7 +19,6 @@ namespace BetterYahtzee.UI
             while (true)
             {
                 game.StartGame();
-                bool end = false;
             
                 for (int i = 13; i > 0; i--)
                 {
@@ -38,8 +37,8 @@ namespace BetterYahtzee.UI
                             while (true)
                             {
                                 ConsoleOutput.ClearInputLine();
-                                diceinput = ConsoleInput.MustScore();
-                                if (game.IsValidScoringSelection(diceinput) && game.ScoreOrReturnFalse(diceinput) == true)
+                                diceinput = ConsoleInput.PromptOnlyScoreSelection();
+                                if (ConsoleInput.IsValidScoringSelection(diceinput) && game.ScoreOrReturnFalse(diceinput) == true)
                                     break;
                                 ConsoleOutput.InvalidSelection();
                             }
@@ -50,14 +49,14 @@ namespace BetterYahtzee.UI
                         while (true)
                         {
                             ConsoleOutput.ClearInputLine();
-                            diceinput = ConsoleInput.GetUserString();
+                            diceinput = ConsoleInput.PromptDiceOrScoreSelection();
                             int output = ConsoleInput.TryToConvertToInt(diceinput);
-                            if (game.IsValidScoringSelection(diceinput) && game.ScoreOrReturnFalse(diceinput) == true)
+                            if (ConsoleInput.IsValidScoringSelection(diceinput) && game.ScoreOrReturnFalse(diceinput) == true)
                             {
                                 scored = true;
                                 break;
                             }
-                            else if (game.IsValidDiceSelection(output))
+                            else if (ConsoleInput.IsValidDiceSelection(output))
                             {
                                 int dice = ConsoleInput.ConvertToInt(diceinput);
                                 if (game.RollTheseDice(dice) == true)
@@ -75,20 +74,12 @@ namespace BetterYahtzee.UI
                 ConsoleOutput.DisplayScoreText();
                 ConsoleOutput.DisplayScoreSheet();
                 ConsoleOutput.FinalScore();
-                string input;
-                while (true)
-                {
-                    string inputinner = ConsoleInput.GetUserEnd();
-                    if (inputinner == "Y" || inputinner == "YES" || inputinner == "N" || inputinner == "NO")
-                    {
-                        input = inputinner;
-                        break;
-                    }
-                    ConsoleOutput.InvalidSelection();
-                }
-                if (ConsoleInput.DecidePlayAgain(input) == false)
-                    end = true;
-                if (end == true)
+
+
+                string input = ConsoleInput.PromptReplayUntilValidInput();
+                bool again = ConsoleInput.ValidInputToBool(input);
+
+                if (!again)
                     break;
             }
         }
