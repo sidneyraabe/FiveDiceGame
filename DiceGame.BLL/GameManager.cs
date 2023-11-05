@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
-namespace BetterYahtzee.BLL
+namespace DiceGame.BLL
 {
     public class GameManager
     {

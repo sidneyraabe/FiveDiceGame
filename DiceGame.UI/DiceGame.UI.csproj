@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="BetterYahtzee.BLL">
-      <HintPath>..\DiceGame.BLL\bin\Debug\netstandard2.0\BetterYahtzee.BLL.dll</HintPath>
+    <Reference Include="DiceGame.BLL">
+      <HintPath>..\DiceGame.BLL\bin\Debug\netstandard2.0\DiceGame.BLL.dll</HintPath>
     </Reference>
   </ItemGroup>
 

@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Xml;
-using BetterYahtzee.BLL;
+using DiceGame.BLL;
+using DiceGame.UI;
 
-namespace BetterYahtzee.UI
+namespace DiceGame.UI
 {
     public class GameFlow
     {
@@ -19,10 +20,9 @@ namespace BetterYahtzee.UI
             while (true)
             {
                 game.StartGame();
-            
-                for (int i = 13; i > 0; i--)
+
+                for (int turns = 13; turns > 0; turns--)
                 {
-                    ConsoleOutput.DisplayScoreText();
                     ConsoleOutput.DisplayScoreSheet();
                     game.RollTheseDice(12345);
                     int roundsLeft = 2;
@@ -71,15 +71,21 @@ namespace BetterYahtzee.UI
                             break;
                     }
                 }
-                ConsoleOutput.DisplayScoreText();
+
+                // final screen
                 ConsoleOutput.DisplayScoreSheet();
-                ConsoleOutput.FinalScore();
+                ConsoleOutput.DisplayFinalScore();
 
-
-                string input = ConsoleInput.PromptReplayUntilValidInput();
-                bool again = ConsoleInput.ValidInputToBool(input);
-
-                if (!again)
+                
+                // play again?
+                string input = ConsoleInput.PromptReplay();
+                while (!ConsoleInput.IsValidBoolSelection(input))
+                {
+                    ConsoleOutput.InvalidSelection();
+                    input = ConsoleInput.PromptReplay(); 
+                }
+                bool playAgain = Utilities.ValidInputToBool(input);
+                if (!playAgain)
                     break;
             }
         }

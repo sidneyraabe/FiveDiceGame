@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BetterYahtzee.UI
+namespace DiceGame.UI
 {
     class Program
     {

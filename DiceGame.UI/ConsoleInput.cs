@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 using System.Text;
 using System.Transactions;
-using BetterYahtzee.BLL;
+using DiceGame.BLL;
 using static System.Formats.Asn1.AsnWriter;
 
-namespace BetterYahtzee.UI
+namespace DiceGame.UI
 {
     class ConsoleInput
     {
@@ -15,17 +15,9 @@ namespace BetterYahtzee.UI
             string input = InlinePrompt("-Type the number(s) of all dice you wish to reroll, or select a letter to score");
             return input;
         }
-        public static string PromptReplayUntilValidInput()
+        public static string PromptReplay()
         {
-            string input;
-            do
-            {
-                input = InlinePrompt("Do you wish to play again? (Y)es or (n)o");
-                if (!IsValidBoolSelection(input))                
-                    ConsoleOutput.InvalidSelection();
-                
-            } while (!IsValidBoolSelection(input));
-
+            string input = InlinePrompt("Do you wish to play again? (Y)es or (n)o");;
             return input;
         }
         public static string PromptOnlyScoreSelection()
@@ -64,13 +56,6 @@ namespace BetterYahtzee.UI
         public static bool IsValidBoolSelection(string boolSelection)
         {
             if (boolSelection == "Y" || boolSelection == "YES" || boolSelection == "N" || boolSelection == "NO")
-                return true;
-            return false;
-        }
-
-        public static bool ValidInputToBool(string input)
-        {
-            if (input == "Y" || input == "YES")
                 return true;
             return false;
         }

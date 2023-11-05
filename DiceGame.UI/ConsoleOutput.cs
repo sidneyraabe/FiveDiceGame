@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using BetterYahtzee.BLL;
+using DiceGame.BLL;
 
-namespace BetterYahtzee.UI
+namespace DiceGame.UI
 {
     class ConsoleOutput
     {
@@ -51,6 +51,8 @@ namespace BetterYahtzee.UI
         }
         public static void DisplayScoreSheet()
         {
+            DisplayScoreSheetTitle();
+
             int one = GameManager.Get("one");
             int two = GameManager.Get("two");
             int three = GameManager.Get("three");
@@ -327,7 +329,7 @@ namespace BetterYahtzee.UI
             Console.WriteLine("                                                                      ");
         }
 
-        public static void DisplayDice()
+        public static void DisplayDice() // debugging
         {
             Console.SetCursorPosition(22, 17);
             Console.Write("   Dice: ");
@@ -338,7 +340,7 @@ namespace BetterYahtzee.UI
             Console.ResetColor();
         }
 
-        public static void DisplayBetterDice()
+        public static void DisplayBetterDice() //TODO: make positions responsive to console size
         {
             for (int i = 0; i < 5; i++)
             {
@@ -434,14 +436,13 @@ namespace BetterYahtzee.UI
             Console.ResetColor();
         }
 
-        public static void DisplayScoreText()
+        public static void DisplayScoreSheetTitle()
         {
             Console.Clear();
             Console.WriteLine("\n      ___ _____   _____   ___ ___ ___ ___ ");
             Console.WriteLine("     | __|_ _\\ \\ / / __| |   \\_ _/ __| __|");
             Console.WriteLine("     | _| | | \\ V /| _|  | |) | | (__| _| ");
-            Console.WriteLine("     |_| |___| \\_/ |___| |___/___\\___|___|");
-            Console.WriteLine("");
+            Console.WriteLine("     |_| |___| \\_/ |___| |___/___\\___|___|\n");
         }
         public static void ClearInputLine()
         {
@@ -450,7 +451,7 @@ namespace BetterYahtzee.UI
             Console.Write("                                                                                                                        ");
         }
 
-        public static void FinalScore()
+        public static void DisplayFinalScore()
         {
             int total = GameManager.Get("total");
             Console.SetCursorPosition(3, 18);
